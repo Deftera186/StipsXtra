@@ -1,0 +1,36 @@
+body,
+body * {
+  box-sizing: border-box;
+}
+body {
+  background: #09c286;
+  padding: 3px 33px 3px 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+}
+.stips-xtra {
+  color: #ffffff;
+  text-align: center;
+  font: 400 96px "Varela Round", sans-serif;
+  position: relative;
+  width: 100%;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+}
+.clabel {
+    color: #ffffff;
+    text-align: right;
+    font: 400 40px "Varela Round", sans-serif;
+    position: relative;
+}
