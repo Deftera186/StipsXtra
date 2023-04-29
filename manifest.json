@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "StipsXtra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "action": {
     "default_popup": "src/popup/popup.html",
     "default_title": "StipsXtra"
   },
-  "description": "StipsXtra is a powerful browser extension designed to enhance your experience on the website www.stips.co.il. With StipsXtra, you can enjoy a range of useful utilities and features that make browsing the site faster, smoother, and more personalized.",
+  "description": "StipsXtra is a powerful browser extension designed to enhance your experience on the website www.stips.co.il",
   "content_scripts": [
     {
       "matches": ["https://stips.co.il/*"],
